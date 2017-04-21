@@ -13,5 +13,8 @@ public class CalculatorTest extends TestCase {
 		Calculator c = new Calculator();
 		assertEquals(2.0, c.multiply(1, 2));
 	}
-
+	public void testDivision() {
+		Calculator c = new Calculator();
+		assertEquals(2.0, c.division(4, 2));
+	}
 }

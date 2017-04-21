@@ -23,4 +23,10 @@ public class Calculator
     	logger.info("This is my multiply method");
         return a*b;
     }
+    public double division( int a, int b)
+    {
+    	//BasicConfigurator.configure();
+    	logger.info("This is my multiply method");
+        return a/b;
+    }
 }
